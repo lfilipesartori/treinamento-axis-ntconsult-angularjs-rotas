@@ -5,28 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ngRoute</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+
 </head>
 <body ng-app="AXIS">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">Angularjs</a>
-      
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a  ui-sref-active="active" class="nav-link" ui-sref="home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a ui-sref-active="active" class="nav-link" ui-sref="sobre">Sobre</a>
-            </li>
-            <li class="nav-item">
-              <a ui-sref-active="active" class="nav-link" ui-sref="contato">Contato</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img.png"  width="64px" alt=""></a>
+          <a class="nav-link" id="bc">Blockchain</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-" >
+            <a ui-sref-active="active" class="nav-link" ui-sref="home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a ui-sref-active="active" class="nav-link">Products</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <button ui-sref-active="active" type="button" class="btn- mr-2 " ui-sref="login">
+              Login
+            </button>
+            <button ui-sref-active="active" type="button" class="btn-" ui-sref="signup">
+              Sign Up
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
     <div ui-view></div>
     <script src="./lib/angular/angular.min.js"></script>
     <script src="./lib/angular-ui-router/release/angular-ui-router.min.js"></script>
@@ -37,10 +50,9 @@
 
     <script src="./modules/home/home.module.js"></script>
     <script src="./modules/home/home.controller.js"></script>
-    <script src="./modules/sobre/sobre.module.js"></script>
-    <script src="./modules/sobre/sobre.controller.js"></script>
-    <script src="./modules/contato/contato.module.js"></script>
-    <script src="./modules/contato/contato.controller.js"></script>
-   
+    <script src="./modules/login/login.module.js"></script>
+    <script src="./modules/login/login.controller.js"></script>
+    <script src="./modules/signup/signup.module.js"></script>
+    <script src="./modules/signup/signup.controller.js"></script>
 </body>
 </html>

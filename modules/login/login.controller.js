@@ -1,10 +1,10 @@
 (function () {
     'use strict';
 
-    angular.module('AXIS.sobre')
-        .controller('SobreController', SobreController);
+    angular.module('AXIS.login')
+        .controller('LoginController', LoginController);
 
-    function SobreController() {
+    function LoginController() {
         var vm = this;
 
         vm.onInit = onInit;

@@ -1,0 +1,70 @@
+.btn-{
+    padding: 5px 24px;
+    background:rgb(79, 4, 165);
+    color: white;
+    border-radius: 30px;
+    outline: 0 !important;
+    border: 0;
+    font-weight: bold;
+}
+#bc{
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+    font-size: 22px;
+    padding-right: 64px;
+}
+a{
+    font-weight: bold;
+    margin-right: 50px;
+}
+#cont{
+    padding-top: 200px;
+}
+#cont button{
+    padding: 8px 18px;
+    background:rgb(79, 4, 165);
+    color: white;
+    border-radius: 30px;
+    outline: 0 !important;
+    border: 0;
+    font-weight: bold;
+}
+.col h2{
+    font-size: 48px;
+    font-weight: bold;
+    color:rgb(50, 10, 102) ;
+}
+.col h1{
+    font-family: 'Alatsi', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color:rgb(50, 10, 102) ;
+}
+.col p{
+    color: rgb(139, 140, 146);
+    font-size: 14px;
+    font-weight: bold;
+}
+.col div{
+    color: rgb(139, 140, 146);
+    font-size: 14px;
+    font-weight: bold;
+}
+.col #box{
+    font-weight: bold;
+    color:rgb(50, 10, 102);
+}
+.login{
+    margin-top: 200px;
+}
+.login label{
+    font-weight: bold;
+    color:rgb(50, 10, 102);
+}
+.sign{
+    margin-top: 200px;
+}
+.sign label{
+    font-weight: bold;
+    color:rgb(50, 10, 102);
+}

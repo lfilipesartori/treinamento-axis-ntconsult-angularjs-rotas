@@ -1,10 +1,10 @@
 (function () {
     'use strict';
 
-    angular.module('AXIS.contato')
-        .controller('ContatoController', ContatoController);
+    angular.module('AXIS.signup')
+        .controller('SignupController', SignupController);
 
-    function ContatoController() {
+    function SignupController() {
         var vm = this;
 
         vm.onInit = onInit;

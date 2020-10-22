@@ -3,9 +3,8 @@
 
   angular.module('AXIS.modules', [
     'AXIS.home',
-    'AXIS.contato',
-    'AXIS.sobre'
-    
+    'AXIS.login',
+    'AXIS.signup'
   ]);
   
   angular.module('AXIS', ['ui.router', 'AXIS.modules'])
